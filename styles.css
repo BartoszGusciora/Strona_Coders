@@ -33,7 +33,7 @@ body {
   background-color: #cccccc;
 }
 
-#divNav {
+nav {
   width: 420px;
   height: 40px;
   margin: auto;
@@ -44,15 +44,15 @@ body {
   border-bottom: none;
 }
 
-#divNav ul {
+nav ul {
   list-style-type: none;
 }
 
-#divNav ul li {
+nav ul li {
   float: left;
 }
 
-#divNav ul li a {
+nav ul li a {
   margin-top:5px;
   margin-left: 2px;
   display:block;
@@ -70,11 +70,11 @@ body {
   background: linear-gradient(#ffffff, #666666);
 }
 
-#divNav ul li a:hover {
+nav ul li a:hover {
   background: linear-gradient(#333333, #666666);
 }
 
-#divNav ul li a.current, #divNav ul li a.current:hover {
+nav ul li a.current, #divNav ul li a.current:hover {
   background: linear-gradient(#333333, #666666);
   color: #e68a00;
 }
@@ -137,7 +137,7 @@ list-style-image: url(https://a.fsdn.com/allura/p/simplewebchat/icon?1514295283)
   font-style: italic;
 }
 
-#divFooter {
+Footer {
   background-color: #222222;
   height: 15px;
   width: 535px;
